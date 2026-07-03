@@ -1,0 +1,130 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+header {
+    flex-direction: column;
+    width: 100%;
+}
+
+.dispFl{
+    display: flex;
+}
+
+.spaceArrCont {
+    justify-content: space-around;
+}
+
+.topBar {
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 50px 20px 40px;
+    row-gap: 30px;
+}
+
+.logo {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.logoName {
+    color: #009cbf;
+    font-size: 2.2rem;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoLabel {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.navhov {
+    margin: 0 50px;
+}
+
+.navhov:hover{
+    color: #e8853d;
+}
+
+.logoName::before,
+.logoName::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #e8853d;
+}
+
+@media (max-width: 768px) {
+    .topBar {
+        flex-direction: column;
+    }
+    .logo {
+        margin-right: 0;
+        margin-left: 0;
+        align-items: center;
+    }
+}
+
+.bg {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rest {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 40%;
+}
+
+.order {
+    font-size: 1.1rem;
+}
+
+.delivbtn {
+    background-color: #fa4a0c;
+    color: white;
+    padding: 12px 50px;
+    margin: 35px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.menubtn {
+    padding: 12px 50px;
+    margin: 35px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: white;
+    border: 1px solid white;
+}
