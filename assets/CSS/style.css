@@ -227,6 +227,15 @@ h5 {
     background-color:#e8853d;
  }
 
+footer {
+    margin: 40px 10% 20px;
+    align-items: center;
+}
+
+.footp {
+    font-size: 0.75rem;
+}
+
 @media (max-width: 768px) {
     .topBar {
         flex-direction: column;
@@ -262,5 +271,9 @@ h5 {
     }
     .appWorkReverse .appWorkFlex > img {
     margin: 0 auto;
-}
+    }
+    footer {
+        justify-content: space-evenly;
+    }
+
 }
