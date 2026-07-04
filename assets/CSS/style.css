@@ -83,7 +83,7 @@ header {
   background-color: #e8853d;
 }
 
-.bg {
+.bghead {
     background-image: url(../images/header.jpg);
     background-size: cover;
     height: 600px;
@@ -92,6 +92,17 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.bgorder {
+    background-image: url(../images/orderBg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 516px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .rest {
@@ -112,10 +123,15 @@ h3 {
 }
 
 h4 {
-font-size: 1.7rem;
+    font-size: 1.7rem;
     width: 100%;
     font-weight: 600;
     padding: 20px 0 30px 0;
+}
+
+h5 {
+    font-size: 1.9rem;
+    padding: 10px;
 }
 
 .order {
@@ -180,6 +196,36 @@ font-size: 1.7rem;
 .appWorkReverse .appWorkFlex > img {
     margin-left: auto;
 }
+
+.bgorder > .order {
+    margin: 10px auto 50px;
+}
+
+.plstrbtn,
+.appstrbtn{
+    color: white;
+    padding: 18px 31px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.appstrbtn {
+    border: 1px solid white;
+}
+
+.appstrbtn:hover {
+    border-color: black;
+    color: black;
+}
+
+.plstrbtn {
+    background-color:#fa4a0c;
+    border: 1px solid black;
+
+}
+ .plstrbtn:hover {
+    background-color:#e8853d;
+ }
 
 @media (max-width: 768px) {
     .topBar {
